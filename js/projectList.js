@@ -11,7 +11,7 @@ const projectList = [
         skillList: [
             "figma",
         ],
-        type: "link",
+        type: "download",
         link: "file/한끼콕.pdf",
     },
     {
