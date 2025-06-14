@@ -1,0 +1,17 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+body{
+    display: flex;
+    
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0px;
+
+    font-family: "pretendard";
+
+    background-color: #333333;
+    
+    color: white;
+}

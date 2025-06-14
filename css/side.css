@@ -1,0 +1,105 @@
+
+.side{
+    position: fixed;
+    top: 0px;
+
+    width: 25vw;
+    height: 100vh;
+}
+
+.sideImgCover {
+    position: relative;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: black;
+
+    z-index: 0;
+}
+.sideImge {
+    width: 100%;
+    height: 100vh;
+    opacity: 30%;
+    object-fit: cover;
+}
+
+.sideContents {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    width: 25vw;
+    height: 100vh;
+
+    gap: 50px;
+}
+.profileImgBlock {
+    position: relative;
+    width: 50%;
+
+    border-radius: 50%;
+    object-fit: cover;
+}   
+.profileImgBlock:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.profileImg {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+.textField {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+
+    color: white;
+
+    gap: 50px;
+}
+.name {
+    font-size: 3.3rem;
+}
+.explain {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.8rem;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    width: 100%;
+    margin-top: 10vh;
+}
+.socialIcon {
+    height: 5vh;
+
+    object-fit: cover;
+}

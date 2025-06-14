@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/side.css" />
+    <link rel="stylesheet" href="css/body.css" />
+    <link rel="stylesheet" href="css/skill.css" />
+    <link rel="stylesheet" href="css/project.css" />
+    <link rel="stylesheet" href="css/job.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    
+    <link rel="stylesheet" as="style" crossorigin 
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+
+    <title>JSH's site</title>
+</head>
+<body>
+    <!-- 왼쪽 사이드 -->
+    <div class="side">
+        <div class="sideImgCover">
+            <img src="images/side_image.jpg" class="sideImge">
+        </div>
+        <div class="sideContents">
+            <div class="profileImgBlock" >
+                <img class="profileImg" src="images/profile.jpg">
+            </div>
+            <div class="textField">
+                <div class="name">
+                    전승환
+                </div>
+                <div class="explain">
+                    <div class="univ">
+                        한남대학교
+                    </div>
+                    <div>
+                        컴퓨터공학과 25학번
+                    </div>
+                </div>
+            </div>
+            <div class="social">
+                <img class="githubIcon socialIcon btn" src="icons/github_white.png"/>
+                <img class="linkedinIcon socialIcon btn" src="icons/linkedin.png"/>
+            </div>
+        </div>
+
+    </div>
+    <div class="body">
+        <div class="bodyContainer">
+            <div class="bodyTitle">
+                About Me
+            </div>
+            <hr class="lineHR"/>
+            <div class="abouMeContainer">
+               <md-block src="./AboutMe.md" style="">
+                    `AboutMe.md` was *not* found
+                </md-block>
+            </div>
+        </div>
+        <div class="bodyContainer">
+            <div class="bodyTitle">
+                Skills
+            </div>
+            <hr class="lineHR"/>
+            <div class="skillContainer">
+                <!-- <div class="cpp skill">
+                    <img class="skillImg" src="images/cpp.png">
+                    <div class="skillTitle">
+                        C++
+                    </div>
+                    <div class="skillStar">
+                        <img class="skillStarImg" src="icons/star_fill.png">
+                        <img class="skillStarImg" src="icons/star_fill.png">
+                        <img class="skillStarImg" src="icons/star_empty.png">
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="bodyContainer">
+            <div class="bodyTitle">
+                Poject
+            </div>
+            <hr class="lineHR"/>
+            <div class="projectContainer">
+                <div class="projectMainContainer btn">
+                    <!-- <div class="projectTitle">
+                        한끼 콕
+                    </div>
+                    <div class="projectImgContainer">
+                        <img class="projectImg" src="${images/hankkiCok.png}" />
+                    </div>
+                    <div class="projectExplain">
+                        식재료관리와 AI 사용자 맞춤형 레시피 제공을 통해 자취생들의 자취 요리 생활에 도움을 주는 서비스
+                        <br/>
+                        외부 동아리인 멋쟁이 사자처럼에서 진행한 아이디어톤 출품작
+                    </div> 
+                    <div class="projectSkill">
+                        <div class="projectSkillIconContainer">
+                            <img class="projectSkillIcon" src="icons/c.png">
+                        </div>                        
+                    </div>-->
+                </div>
+                <div class="projectPageContainer">
+                    <div class="projectPageIconContainer">
+                        <img class="projectPageLeftIcon projectPageIcon btn" src="icons/left.png">
+                    </div>
+                    <div class="projectPagesContainer">
+                        <!-- <div class="projectPageIconContainer">
+                            <img class="projectPageIcon btn" src="icons/squre_empty.png">
+                        </div> -->
+                    </div>
+                    <div class="projectPageIconContainer">
+                        <img class="projectPageRightIcon projectPageIcon btn" src="icons/right.png">
+                    </div>
+                </div>     
+            </div>
+        </div>
+        <div class="bodyContainer">
+            <div class="bodyTitle">
+                희망 직무
+            </div>
+            <hr class="lineHR"/>
+            <div class="jobContainer">
+
+                <div class="jobText jobCurrent">
+                    임베디드 소프트웨어 개발자
+                </div>
+                <div class="jobArrowImgContainer">
+                    <img class="jobArrowImg" src="icons/down.png">
+                </div>
+                <div class="jobText jobFuture">
+                    PM, 프로젝트 매니저
+                </div>
+                <div class="jobExplain">
+                    저는 임베디드 개발로 시작했습니다.</br>
+                    지금은 임베디드 뿐만 아니라 웹, 서버 등 다양하게 공부하고 있습니다.</br>
+                    최종적으론 프로젝트 매니저로서 하나의 프로젝트, 제품을 담당하여 일하고 싶습니다.
+                </div>
+            </div>
+        </div>
+        <div class="videoModal">
+            <div class="videoModalBody">
+                <!-- <video></video> -->
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+
+    <script type="module" src="js/skiil.js"></script>
+    <script type="module" src="js/project.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/btn.js"></script>
+</body>
+</html>
