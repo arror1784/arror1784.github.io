@@ -15,7 +15,7 @@ const videoModalOpen = ( src ) =>{
 
     const videoModalBody = document.querySelector(".videoModalBody")
 
-    videoModalBody.innerHTML = `<video classname="vieoModalVideo" src="${src}" controls muted></video>`
+    videoModalBody.innerHTML = `<video classname="vieoModalVideo" src="${src}" controls muted autoplay></video>`
 
 }
 
