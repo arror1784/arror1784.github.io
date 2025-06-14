@@ -29,7 +29,7 @@ const drawProject = ()=>{
                 </div>
             </div>
         `
-    projectMainContainer.addEventListener("click", ()=>{
+    projectMainContainer.onclick = ()=>{
         switch (projectList[page].type) {
             case "link":
                 location.href = projectList[page].link
@@ -47,7 +47,7 @@ const drawProject = ()=>{
             default:
                 break;
         }
-    })
+    }
 
     btn();
 }
